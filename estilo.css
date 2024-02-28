@@ -1,0 +1,931 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Footer */
+footer {
+    height: 40vh;
+    background-color: #EBD9B4;
+}
+
+.encapçalament {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding-top: 100px;
+}
+
+.imgFooter img {
+    width: 100;
+    height: 100px;
+
+    border-radius: 150px;
+    border: 4px solid #ab8867;
+}
+
+.linksFooter h3 {
+    font-family: 'Jost';
+    font-size: 1em;
+    font-weight: 300;
+    text-align: center;
+    color: #3e362e;
+}
+
+.logoFooter i {
+    color: #3e362e;
+    font-size: 1.7em;
+
+    padding: 0px 5px;
+}
+
+footer p {
+    padding-top: 30px;
+
+    text-align: center;
+    font-family: 'Jost';
+    color: #3e362e;
+}
+
+/* Menu */
+#header {
+    background-image: url(img/fotoDark.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+}
+
+.capçalera {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    margin-top: 80px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    border: 0px solid;
+    border-radius: 50px;
+
+    backdrop-filter: blur(5px);
+
+    transition: all 1s;
+
+    filter: brightness(100%);
+
+    position: fixed;
+}
+
+.menu:hover {
+    backdrop-filter: blur(150px);
+}
+
+.menu ul {
+    padding-left: 5px;
+}
+
+.menu ul li {
+    text-decoration: none;
+    font-family: 'Jost';
+    color: white;
+
+    display: inline-block;
+
+    padding: 0px 5px;
+
+    transition: all 1s;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.A:hover {
+    background-color: rgb(216, 216, 216);
+    border: 0 solid;
+    border-radius: 50px;
+}
+
+.P:hover {
+    background-color: rgb(216, 216, 216);
+    border: 0 solid;
+    border-radius: 50px;
+}
+
+.AB:hover {
+    background-color: rgb(216, 216, 216);
+    border: 0 solid;
+    border-radius: 50px;
+}
+
+.C:hover {
+    background-color: rgb(216, 216, 216);
+    border: 0 solid;
+    border-radius: 50px;
+}
+
+.titolPortada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 70vh;
+}
+
+.titolPortada h1 {
+    font-family: 'Jost';
+    font-size: 8em;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+
+    padding-top: 80px;
+    margin: 0;
+}
+
+.titolPortada button {
+    padding: 10px;
+
+    border: 0px solid;
+    border-radius: 50px;
+
+    background-color: #776B5D;
+
+    font-family: 'Jost';
+}
+
+
+/* Descripció */
+#descripcio {
+    height: 100vh;
+    padding-top: 300px;
+
+    background-color: #3e362e;
+}
+
+.zonaDescrip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.zonaDescrip h2 {
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 1em;
+    color: white;
+
+    margin-left: -950px;
+    padding: 5px 10px;
+
+    border: 2px solid;
+    border-radius: 50px;
+}
+
+.introDescrip {
+    text-align: center;
+    font-family: 'Jost';
+    font-weight: 100;
+    font-size: 3em;
+    color: #ab8867;
+
+    padding: 5px 200px;
+    margin: 0px;
+}
+
+.autorDescrip {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-left: auto;
+    margin-right: 230px;
+    padding-top: 40px;
+}
+
+.autorDescrip img {
+    width: 100;
+    height: 100px;
+    border-radius: 150px;
+}
+
+.autorDescrip h3 {
+    font-family: 'Jost';
+    font-size: 1.5em;
+
+    padding-left: 10px;
+    margin: 0;
+}
+
+.aiDescrip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aiDescrip span {
+    font-family: 'Jost';
+}
+
+
+/* ABOUT 
+
+Portada About */
+.portadaAbout {
+    height: 100vh;
+
+    background-image: url(img/portadaAbout.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kobeAbout {
+    height: 80vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.kobeAbout h3 {
+    font-family: 'Jost';
+    font-size: 4em;
+    font-weight: 100;
+    color: white;
+
+    margin: 10px 0px;
+}
+
+.kobeAbout p {
+    font-family: 'Jost';
+    font-size: 1em;
+    color: white;
+
+    border: 0px solid;
+    border-radius: 50px;
+
+    background-color: #776B5D;
+
+    padding: 10px;
+}
+
+/* Part 1 About */
+#sec1About {
+    height: 100vh;
+}
+
+.part1About {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 100vh;
+}
+
+.textAbout {
+    background-color: #F2EFE5;
+    height: 100vh;
+}
+
+.textAbout h2 {
+    font-family: 'Jost';
+    font-size: 1em;
+    letter-spacing: 2px;
+
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+.textAbout p {
+    padding-left: 100px;
+    padding-right: 100px;
+
+    font-family: 'Jost';
+
+}
+
+.foto1About {
+    width: 88%;
+    height: 100vh;
+}
+
+.foto1About img {
+    width: 100%;
+}
+
+/* Fotos 2 i 3 About */
+.fotos2i3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto2About {
+    width: 50%;
+    height: 100vh;
+}
+
+.foto3About {
+    width: 53%;
+    height: 100vh;
+}
+
+
+/* Experiencia i Estudis */
+#sec3About {
+    height: 180vh;
+
+    background-color: #F9F3CC;
+}
+
+.experAbout {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.cexperiencia {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.textContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    border: 2px solid black;
+    border-radius:100px;
+
+    width: 1100px;
+    height: 150px;
+
+    margin: 30px 0px;
+
+    background-color: #FDF4F5;
+
+    font-family: 'Jost';
+}
+
+.textContainer img {
+    width: 80px;
+
+    padding: 10px;
+
+    border: 1px solid black;
+    border-radius: 100px;
+    
+}
+
+/* Llenguatges */
+#sec4About {
+    height: 50vh;
+    background-color: #E5E1DA;
+}
+
+.llenguatges {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding-top: 100px;
+}
+
+.llenguatges img {
+    width: 100px;
+    transition: 1s all;
+}
+
+.llenguatges:hover img {
+    transform: rotate(-720deg);
+}
+
+#sec4About h1  {
+    text-align: center;
+    font-family: 'Jost';
+    font-size: 1em;
+
+    margin-top: 50px;
+    padding: 7px;
+
+    border: 3px solid black;
+    border-radius: 50px;
+
+    width: 100px;
+}
+
+/* Portada Aptituds */
+.portadaAptituds {
+    height: 100vh;
+
+    background-image: url(img/portadAptituds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titolAptituds {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+}
+
+.titolAptituds h3 {
+    font-family: 'Jost';
+    font-weight: 100;
+    font-size: 5em;
+    color: white;
+}
+
+/* Seccio 1 Aptitud */
+#sec1Aptituds {
+    height: 250vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.divAptitud {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divAptitud p {
+    font-family: 'Jost';
+    text-align: justify;
+
+    padding: 50px 150px;
+}
+
+.divAptitud img {
+    width: 100px;
+
+    padding: 0px 100px;
+}
+
+.fletxa1 {
+    width: 250px;
+}
+
+.titolAptitud {
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 1em;
+    color: black;
+
+    padding: 10px 20px;
+    margin-left: -1100px;
+
+    border: 3px solid;
+    border-radius: 50px;
+}
+
+/* Contacte */
+.divContacte {
+    background-image: url(img/fondoContacte.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100vh;
+}
+
+.formContacte {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+}
+
+.formContacte h2 {
+    font-family: 'Jost';
+    
+    padding: 0px 20px;
+}
+
+.formContacte form {
+    border: 0px solid;
+    border-radius: 50px;
+
+    background-color: white;
+
+    padding: 60px;
+    width: 450px;
+
+    font-family: 'Jost';
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.formContacte form input {
+    border: 0px;
+    border-bottom: 1px solid;
+
+    margin: 20px 0px;
+
+    font-family: 'Jost';
+    color: black;
+}
+
+.formContacte form textarea {
+    border: 0px;
+    border-bottom: 1px solid;
+
+    margin: 20px 0px;
+
+    font-family: 'Jost';
+    color: black;
+}
+
+/* Portada Portfoli */
+.divPortfoli {
+    height: 100vh;
+
+    background-image: url(img/portada.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titolPortfoli {
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titolPortfoli h3 {
+    font-family: 'Jost';
+    font-weight: 100;
+    font-size: 5em;
+    color: white;
+}
+
+/* Secció 1 Portfoli */
+#sec1Portfoli {
+    height: 200vh;
+}
+
+.divGeneralPortfoli {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+    padding-top: 100px;
+}
+
+.f {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 100px 0px;
+}
+
+.p {
+    border: 0px solid;
+    
+    background-color: #3e362e;
+
+    width: 350px;
+    height: 500px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin: 0px 50px;
+
+    transform: translate(3000px);
+
+    animation: h 2s ease-in;
+    animation-fill-mode: forwards;
+}
+
+.p h3 {
+    font-family: 'Jost';
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+
+.p img {
+    width: 250px;
+}
+
+@keyframes h {
+    from {
+         transform: translate(2000px);
+    } 
+    to {
+         transform: translate(0px);
+    }
+ }
+
+
+
+
+@media screen and (min-width: 390px) and (max-width: 767px) {
+    /* Portada Inici */
+    .titolPortada {
+        font-size: 0.7em;
+    }
+
+    /* Descripcio Inici */
+    #descripcio {
+        padding-top: 30px;
+
+        height: 60vh;
+    }
+
+    .zonaDescrip h2 {
+        margin-left: 0px;
+    }
+
+    .introDescrip {
+        font-size: 1em;
+        font-weight: 300;
+
+        padding: 10px 30px;
+    }
+
+    .autorDescrip {
+        padding-left: 130px;
+    }
+
+    /* Footer */
+    footer {
+        height: 50vh;
+    }
+
+    .encapçalament {
+        flex-direction: column;
+
+        padding-top: 30px;
+    }
+
+    /* Portada About */
+    .kobeAbout h3 {
+        font-size: 2.3em;
+        text-align: center;
+
+        margin: 0;
+        padding: 0px 20px;
+    }
+
+    /* Seccio 1 About */
+    #sec1About {
+        height: 150vh;
+        background-color: #F2EFE5;
+    }
+
+    .part1About {
+        flex-direction: column;
+        justify-content: center;
+
+        height: 200vh;
+
+        padding-bottom: 120px;
+    }
+
+    .textAbout {
+        height: 70vh;
+    }
+
+    .textAbout h2 {
+        padding-top: 30px;
+    }
+
+    .textAbout p {
+        padding-bottom: 10px;
+    }
+
+    .foto1About {
+        width: 100%;
+        height: 80vh;
+    }
+
+    .fotos2i3 {
+        flex-direction: column;
+    }
+
+    .foto2About {
+        width: 100%;
+        height: 70vh;
+    }
+
+    .foto3About {
+        width: 100%;
+        height: 70vh;
+    }
+
+    /*Seccio Experiencia */
+    #sec3About {
+        height: 300vh;
+    }
+
+    .textContainer {
+        width: 400px;
+        height: 350px;
+        
+        flex-direction: column;
+    }
+
+    /* Seccio Llenguatges */
+    #sec4About {
+        height: 150vh;
+    }
+
+    .llenguatges {
+        flex-direction: column;
+    }
+
+    .llenguatges img {
+        padding: 20px 0px;
+    }
+
+    /* Portada Aptituds */
+
+    /* Seccio Aptituds */
+    #sec1Aptituds {
+        gap: 50px;
+
+        height: 300vh;
+    }
+
+    .divAptitud {
+        flex-direction: column;
+    }
+
+    .fletxa1 {
+        display: none;
+    }
+
+    /*Contacte */
+    .formContacte form {
+        margin: 20px 40px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1080px) {
+    /* Portada Inici */
+    .titolPortada {
+        font-size: 0.7em;
+    }
+
+    /* Descripcio Inici */
+    #descripcio {
+        padding-top: 30px;
+
+        height: 40vh;
+    }
+
+    .zonaDescrip h2 {
+        margin-left: 0px;
+    }
+
+    .introDescrip {
+        font-size: 1em;
+        font-weight: 300;
+
+        padding: 10px 70px;
+    }
+
+    .autorDescrip {
+        padding-left: 130px;
+    }
+
+    /* Footer */
+    footer {
+        height: 40vh;
+    }
+
+    .encapçalament {
+        flex-direction: column;
+
+        padding-top: 30px;
+    }
+
+    /* Portada About */
+    .kobeAbout h3 {
+        font-size: 2.3em;
+        text-align: center;
+
+        margin: 0;
+        padding: 0px 20px;
+    }
+
+    /* Seccio 1 About */
+    #sec1About {
+        height: 160vh;
+        background-color: #F2EFE5;
+    }
+
+    .part1About {
+        flex-direction: column;
+        justify-content: center;
+
+        height: 200vh;
+
+        padding-bottom: 120px;
+    }
+
+    .textAbout {
+        height: 70vh;
+    }
+
+    .textAbout h2 {
+        padding-top: 30px;
+    }
+
+    .textAbout p {
+        padding-bottom: 10px;
+    }
+
+    .foto1About {
+        width: 100%;
+        height: 90vh;
+    }
+
+    .fotos2i3 {
+        flex-direction: column;
+    }
+
+    .foto2About {
+        width: 100%;
+        height: 95vh;
+    }
+
+    .foto3About {
+        width: 100%;
+        height: 70vh;
+    }
+
+    /*Seccio Experiencia */
+    #sec3About {
+        height: 220vh;
+    }
+
+    .textContainer {
+        width: 400px;
+        height: 350px;
+        
+        flex-direction: column;
+    }
+
+    /* Seccio Llenguatges */
+    #sec4About {
+        height: 120vh;
+    }
+
+    .llenguatges {
+        flex-direction: column;
+    }
+
+    .llenguatges img {
+        padding: 20px 0px;
+    }
+
+    /* Portada Aptituds */
+
+    /* Seccio Aptituds */
+    #sec1Aptituds {
+        gap: 50px;
+
+        height: 150vh;
+    }
+
+    .divAptitud {
+        flex-direction: column;
+    }
+
+    .fletxa1 {
+        display: none;
+    }
+
+    /*Contacte */
+    .formContacte form {
+        margin: 20px 40px;
+    }
+}
