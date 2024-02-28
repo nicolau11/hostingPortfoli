@@ -162,6 +162,20 @@ footer p {
     font-family: 'Jost';
 }
 
+.titolPortada button {
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.persp {
+    perspective: 100px;
+    -webkit-perspective: 300px;
+}
+
+.persp:hover button {
+    -webkit-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+}
 
 /* Descripció */
 #descripcio {
@@ -303,8 +317,17 @@ Portada About */
     font-size: 1em;
     letter-spacing: 2px;
 
-    padding-top: 200px;
-    padding-left: 100px;
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 400px;
+    padding: 5px;
+
+    border: 2px solid;
+    border-radius: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .textAbout p {
@@ -367,7 +390,7 @@ Portada About */
     justify-content: space-around;
 
     border: 2px solid black;
-    border-radius:100px;
+    border-radius: 100px;
 
     width: 1100px;
     height: 150px;
@@ -386,7 +409,7 @@ Portada About */
 
     border: 1px solid black;
     border-radius: 100px;
-    
+
 }
 
 /* Llenguatges */
@@ -412,7 +435,7 @@ Portada About */
     transform: rotate(-720deg);
 }
 
-#sec4About h1  {
+#sec4About h1 {
     text-align: center;
     font-family: 'Jost';
     font-size: 1em;
@@ -458,12 +481,17 @@ Portada About */
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+    background-color: #F2EFE5;
 }
 
 .divAptitud {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    border: 0px solid;
+    border-radius: 50px;
 }
 
 .divAptitud p {
@@ -515,7 +543,7 @@ Portada About */
 
 .formContacte h2 {
     font-family: 'Jost';
-    
+
     padding: 0px 20px;
 }
 
@@ -604,7 +632,7 @@ Portada About */
 
 .p {
     border: 0px solid;
-    
+
     background-color: #3e362e;
 
     width: 350px;
@@ -616,11 +644,6 @@ Portada About */
     flex-direction: column;
 
     margin: 0px 50px;
-
-    transform: translate(3000px);
-
-    animation: h 2s ease-in;
-    animation-fill-mode: forwards;
 }
 
 .p h3 {
@@ -634,19 +657,50 @@ Portada About */
     width: 250px;
 }
 
+.p1 {
+    transform: translate(3000px);
+
+    animation: h 2s ease-in;
+    animation-fill-mode: forwards;
+}
+
+.p2 {
+    transform: translate(3000px);
+
+    animation: h 3s ease-in;
+    animation-fill-mode: forwards;
+}
+
+.p3 {
+    transform: translate(3000px);
+
+    animation: h 4s ease-in;
+    animation-fill-mode: forwards;
+}
+
+.p4 {
+    transform: translate(3000px);
+
+    animation: h 3s ease-in;
+    animation-fill-mode: forwards;
+}
+
 @keyframes h {
     from {
-         transform: translate(2000px);
-    } 
-    to {
-         transform: translate(0px);
+        transform: translate(2000px);
     }
- }
+
+    to {
+        transform: translate(0px);
+    }
+}
 
 
 
 
 @media screen and (min-width: 390px) and (max-width: 767px) {
+    /*menu */
+    
     /* Portada index */
     .titolPortada {
         font-size: 0.7em;
@@ -696,7 +750,7 @@ Portada About */
 
     /* Seccio 1 About */
     #sec1About {
-        height: 150vh;
+        height: 80vh;
         background-color: #F2EFE5;
     }
 
@@ -704,26 +758,29 @@ Portada About */
         flex-direction: column;
         justify-content: center;
 
-        height: 200vh;
+        height: 80vh;
 
         padding-bottom: 120px;
     }
 
     .textAbout {
-        height: 70vh;
+        padding-bottom: 30px;
     }
 
     .textAbout h2 {
-        padding-top: 30px;
+        margin-right: 120px;
+        margin-left: 30px;
     }
 
     .textAbout p {
-        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        
+        text-align: justify;
     }
 
     .foto1About {
-        width: 100%;
-        height: 80vh;
+        display: none;
     }
 
     .fotos2i3 {
@@ -732,24 +789,27 @@ Portada About */
 
     .foto2About {
         width: 100%;
-        height: 70vh;
+        height: 50vh;
     }
 
     .foto3About {
         width: 100%;
-        height: 70vh;
+        height: 50vh;
     }
 
     /*Seccio Experiencia */
     #sec3About {
-        height: 300vh;
+        height: 230vh;
     }
 
     .textContainer {
-        width: 400px;
-        height: 350px;
-        
+        width: 350px;
+        height: 300px;
+
         flex-direction: column;
+
+        margin-right: 5px;
+        margin-top: 15px;
     }
 
     /* Seccio Llenguatges */
@@ -771,14 +831,28 @@ Portada About */
     #sec1Aptituds {
         gap: 50px;
 
-        height: 300vh;
+        height: 320vh;
+
+        background-color: #F2EFE5;
     }
 
     .divAptitud {
         flex-direction: column;
+
+        height: 80vh;
+
     }
 
-    .fletxa1 {
+    .divAptitud p {
+        padding: 30px;
+    }
+
+    .titolAptitud {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+
+    .fletxa {
         display: none;
     }
 
@@ -786,9 +860,30 @@ Portada About */
     .formContacte form {
         margin: 20px 40px;
     }
+
+    /* Portfoli */
+    #sec1Portfoli {
+        height: 220vh;
+    }
+
+    .divGeneralPortfoli {
+        padding-top: 0;
+    }
+
+    .f {
+        flex-direction: column;
+    }
+
+    .p {
+        width: 300px;
+        height: 350px;
+
+        margin-top: 20px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1080px) {
+
     /* Portada index */
     .titolPortada {
         font-size: 0.7em;
@@ -838,7 +933,7 @@ Portada About */
 
     /* Seccio 1 About */
     #sec1About {
-        height: 160vh;
+        height: 60vh;
         background-color: #F2EFE5;
     }
 
@@ -846,26 +941,22 @@ Portada About */
         flex-direction: column;
         justify-content: center;
 
-        height: 200vh;
+        height: 80vh;
 
         padding-bottom: 120px;
     }
 
     .textAbout {
-        height: 70vh;
+        padding-bottom: 30px;
+        text-align: justify;
     }
 
     .textAbout h2 {
-        padding-top: 30px;
-    }
-
-    .textAbout p {
-        padding-bottom: 10px;
+        /* padding-top: 40px; */
     }
 
     .foto1About {
-        width: 100%;
-        height: 90vh;
+        display: none;
     }
 
     .fotos2i3 {
@@ -874,12 +965,12 @@ Portada About */
 
     .foto2About {
         width: 100%;
-        height: 95vh;
+        height:80vh;
     }
 
     .foto3About {
         width: 100%;
-        height: 70vh;
+        height: 80vh;
     }
 
     /*Seccio Experiencia */
@@ -890,7 +981,7 @@ Portada About */
     .textContainer {
         width: 400px;
         height: 350px;
-        
+
         flex-direction: column;
     }
 
@@ -913,15 +1004,18 @@ Portada About */
     #sec1Aptituds {
         gap: 50px;
 
-        height: 150vh;
+        height: 260vh;
     }
 
     .divAptitud {
         flex-direction: column;
     }
 
-    .fletxa1 {
-        display: none;
+    
+
+
+    .titolAptitud {
+        margin: 0px;
     }
 
     /*Contacte */

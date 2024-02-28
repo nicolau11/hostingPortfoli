@@ -16,6 +16,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -24,14 +26,14 @@
             <div class="capçalera">
                 <div class="menu">
                     <ul>
-                        <li class="A"><a href="inici.html">Inici</a></li>
+                        <li class="A"><a href="index.html">Index</a></li>
                         <li class="P"><a href="about.html">About</a></li>
                         <li class="AB"><a href="aptituds.html">Aptituds</a></li>
                         <li class="C"><a href="contacte.html">Contacte</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="titolPortfoli">
+            <div class="titolPortfoli" data-aos="flip-right">
                 <h3>PORTFOLI</h3>
             </div>
         </div>
@@ -39,21 +41,21 @@
     <section id="sec1Portfoli">
         <div class="divGeneralPortfoli">
             <div class="f">
-                <div class="p">
+                <div class="p p1">
                     <img src="./carrito.png">
                     <h3>BOTIGA ONLINE</h3>
                 </div>
-                <div class="p">
+                <div class="p p2">
                     <img src="./linuxvswindows.png">
                     <h3>SOFTWARE PROPIETARI</h3>
                 </div>
-                <div class="p">
+                <div class="p p3">
                     <img src="./cine.png">
                     <h3>JANA VILATRONS</h3>
                 </div>
             </div>
             <div class="f">
-                <div class="p">
+                <div class="p p4">
                     <img src="./escola.png">
                     <h3>PROJECTE KINE</h3>
                 </div>
@@ -79,6 +81,9 @@
         </div>
         <p>&copy;NICOLAU HUMET</p>
     </footer>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
