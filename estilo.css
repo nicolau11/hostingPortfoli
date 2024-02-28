@@ -647,12 +647,12 @@ Portada About */
 
 
 @media screen and (min-width: 390px) and (max-width: 767px) {
-    /* Portada Inici */
+    /* Portada index */
     .titolPortada {
         font-size: 0.7em;
     }
 
-    /* Descripcio Inici */
+    /* Descripcio index */
     #descripcio {
         padding-top: 30px;
 
@@ -789,12 +789,12 @@ Portada About */
 }
 
 @media screen and (min-width: 768px) and (max-width: 1080px) {
-    /* Portada Inici */
+    /* Portada index */
     .titolPortada {
         font-size: 0.7em;
     }
 
-    /* Descripcio Inici */
+    /* Descripcio index */
     #descripcio {
         padding-top: 30px;
 
